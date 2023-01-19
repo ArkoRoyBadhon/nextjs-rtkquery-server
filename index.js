@@ -1,10 +1,10 @@
 const express = require('express')
-require("../src/db/conn")
+require("./src/db/conn")
 const cors = require("cors")
 
-const Mensdata = require('../src/models/mens')
-const Productdata = require('../src/models/products')
-const SlideData = require('./models/imageL')
+const Mensdata = require('./src/models/mens')
+const Productdata = require('./src/models/products')
+const SlideData = require('./src/models/imageL')
 
 const app = express();
 const port = process.env.PORT || 5000

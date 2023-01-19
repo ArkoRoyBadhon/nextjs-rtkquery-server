@@ -118,5 +118,5 @@ app.patch("/images/:idd", async (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Server is running on port ${5000}`);
+    console.log(`Server is running on port ${port}`);
 })
